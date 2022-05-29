@@ -1,0 +1,35 @@
+
+html {
+  height: -webkit-fill-available;
+}
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  font-family: 'TT Travels', Helvetica, Arial, sans-serif;
+}
+a {
+  outline: 0;
+  text-decoration: none;
+}
+button {
+  background: none;
+  outline: 0;
+  cursor: pointer;
+}
+input, textarea {
+  outline: 0;
+  -webkit-appearance: none;
+}
+button, img, label, a {
+  user-select: none;
+}
+ul, ol {
+  list-style: none;
+}
+img, picture, svg {
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+}
